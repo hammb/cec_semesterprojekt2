@@ -98,10 +98,10 @@ def visualize(container, getValues):
 def main():
     # Initialize the Cosmos client
     # our Cosmos DB
-    endpoint = 'https://cectesthttpexsample.documents.azure.com:443'
-    key = '1jEbFBUhKhPFi1eck3FNczVuxGsbX3x7BD6WtLAZF0M1KjdDS8UlvayvkXji907Fk54ekOFGDgLgCFBmWBbgWQ=='
-    database_name='my-database' 
-    container_name= 'my-container'
+    endpoint = ''
+    key = ''
+    database_name='' 
+    container_name= ''
 
     client, database, container, = initialize(endpoint, key, database_name, container_name)
     # setRandomValues(container)
